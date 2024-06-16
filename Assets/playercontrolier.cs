@@ -11,6 +11,10 @@ public class playercontrolier : MonoBehaviour
        rb = GetComponent<Rigidbody2D>();
 
     }
+     void OnTriggerEnter2D(Collider2D col)
+     {
+        Debug.Log("Death");
+     }
 
     
     void Update()
